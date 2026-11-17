@@ -1,5 +1,5 @@
-const CACHE_NAME = '2048-upgrade-v1';
-const ASSETS = ['./index.html', './manifest.json', './preview.png'];
+const CACHE_NAME = '2048-upgrade-v2';
+const ASSETS = ['./index.html', './manifest.json', './preview.png', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './favicon.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(
